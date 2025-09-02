@@ -78,9 +78,9 @@ This helps improve **user experience** by showing elegant loading placeholders w
 
 ## Screenshots
 
-| Horizontal Dots | Circular Shimmer |
-|-----------------|------------------|
-| ![Dots Loading](https://github.com/user-attachments/assets/fbabbfb2-77c1-4b09-af3f-09145e0e0f46) | <img width="300" alt="Screenshot_20250902_175404" src="https://github.com/user-attachments/assets/7dd1840e-12a2-4dcc-90fb-e6516c189cda" /> |
+| Horizontal Dots (GIF) | Circular Shimmer (Screenshot) |
+|------------------------|-------------------------------|
+| ![Dots Loading](https://github.com/user-attachments/assets/cac527cf-0ec7-443f-9d53-2c8134b700a5) | <img width="300" alt="Screenshot_20250902_175404" src="https://github.com/user-attachments/assets/b9020fa0-6072-4f52-b5d7-4cafd4a84bfd" /> |
 
 ---
 
