@@ -86,7 +86,7 @@ This helps improve **user experience** by showing elegant loading placeholders w
 
 ## Installation
 
-### Step 1: Add JitPack repository
+### Add JitPack repository
 
 In your **project-level** `build.gradle`:
 
@@ -103,18 +103,27 @@ dependencies {
     implementation("com.github.GmdDev074:CustomShimmer:v1.0.0")
 }
 
-val shimmer = CustomShimmer(this)
-shimmer.showDots(textView) // replaces textView with shimmer dots
+//Prepare your views
+val textView: TextView = findViewById(R.id.textView)
+val imageView: ImageView = findViewById(R.id.imageView)
+val docContainer: LinearLayout = findViewById(R.id.docContainer)
 
 
-val shimmer = CustomShimmer(this)
-shimmer.showCircular(imageView) // replaces imageView with circular shimmer
+//Show shimmer/loaders
 
+// Show horizontal shimmer on TextView
+CustomShimmer.showHorizontal(textView, imageView, docContainer)
 
- CustomShimmer.showHorizontal(textView, imageView, docContainer)
- CustomShimmer.showCircular(textView, imageView, docContainer)
- CustomShimmer.showAngle270(textView, imageView, docContainer)
- CustomShimmer.showDots(textView, imageView, docContainer)
+// Show circular loader on ImageView
+CustomShimmer.showCircular(textView, imageView, docContainer)
 
-shimmer.hide(textView)
+// Show angle 270 loader on LinearLayout
+CustomShimmer.showAngle270(textView, imageView, docContainer)
+
+// Show dots loader on LinearLayout
+CustomShimmer.showDots(textView, imageView, docContainer)
+
+//Clear shimmer/loaders
+CustomShimmer.clearAll(textView, imageView, docContainer)
+
 
