@@ -137,6 +137,18 @@ CustomShimmer.clearAll(textView, imageView, docContainer)
 
 ```
 
+---
+
+## ⭐ Support
+
+If you like **CustomShimmer** and find it helpful, please **give it a ⭐ on GitHub**!  
+
+Your support helps us improve the library, add new features, and keep it maintained.
+
+[![GitHub Stars](https://img.shields.io/github/stars/GmdDev074/CustomShimmer?style=social)](https://github.com/GmdDev074/CustomShimmer/stargazers)
+
+---
+
 Shimmer, Loading Animation, Skeleton, Android, Kotlin, View Loading, Circular Loader, Dots Loader, Custom Loader, Skeleton Screen
 
 
