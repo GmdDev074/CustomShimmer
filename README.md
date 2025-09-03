@@ -86,9 +86,9 @@ This helps improve **user experience** by showing elegant loading placeholders w
 
 ## Installation
 
-### Add JitPack repository
+### Step 1: Add JitPack repository
 
-In your **project-level** `build.gradle`:
+In your **project-level** `build.gradle` or `settings.gradle`:
 
 ```gradle
 allprojects {
@@ -98,12 +98,21 @@ allprojects {
         maven { url 'https://jitpack.io' }
     }
 }
+```
 
-dependencies {
+### Step 2: Add Dependency
+
+In your **app-level** `build.gradle`:
+
+```dependencies {
     implementation("com.github.GmdDev074:CustomShimmer:v1.0.0")
 }
+```
+
+### Step 3: Integrate in your project
 
 //Prepare your views
+```
 val textView: TextView = findViewById(R.id.textView)
 val imageView: ImageView = findViewById(R.id.imageView)
 val docContainer: LinearLayout = findViewById(R.id.docContainer)
@@ -125,5 +134,9 @@ CustomShimmer.showDots(textView, imageView, docContainer)
 
 //Clear shimmer/loaders
 CustomShimmer.clearAll(textView, imageView, docContainer)
+
+```
+
+Shimmer, Loading Animation, Skeleton, Android, Kotlin, View Loading, Circular Loader, Dots Loader, Custom Loader, Skeleton Screen
 
 
