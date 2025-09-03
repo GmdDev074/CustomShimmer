@@ -37,13 +37,6 @@
 
 ---
 
-## Repo Stats
-
-[![Repo Stats](https://github-readme-stats.vercel.app/api/pin/?username=GmdDev074&repo=CustomShimmer)](https://github.com/GmdDev074/CustomShimmer)  
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=GmdDev074&repo=CustomShimmer)](https://github.com/GmdDev074/CustomShimmer)
-
----
-
 ## Overview
 
 **CustomShimmer** is a lightweight Android library for creating **custom loading animations** without external dependencies.  
